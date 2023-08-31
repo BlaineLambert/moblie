@@ -49,7 +49,7 @@ body{
 .donation{
     position: absolute;
     top: 270px;
-    left: 600px;
+    right: 0px;
 }
 .doctor21text{
     position: absolute;
