@@ -8,8 +8,8 @@ body{
 }
 .doctor2{
     position: absolute;
-    top: 450px;
-    right: 25px;
+    top: 500px;
+    left: 1050px;
 }
 .banner{
     position: absolute;
@@ -43,8 +43,8 @@ body{
 }
 .doctor2text{
     position: absolute;
-    top: 650px;
-    left: 1310px;
+    top: 710px;
+    left: 1050px;
 }
 .donation{
     position: absolute;
