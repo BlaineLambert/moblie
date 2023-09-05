@@ -5,16 +5,22 @@ body{
     position: absolute;
     top: 310px;
     left: 25px;
+    width: 200px;
+    height: 200px;
 }
 .doctor2{
     position: absolute;
     top: 450px;
     right: 25px;
+    width: 200px;
+    height: 200px;
 }
 .banner{
     position: absolute;
     top: 0px;
     left: 0px;
+    width: 1535px;
+    height: 250px;
 }
 .home{
     position: absolute;
@@ -24,7 +30,7 @@ body{
 .people{
     position: absolute;
     top: 0px;
-    left: 708px;
+    left: 700px;
 }
 .donate{
     position: absolute;
@@ -56,13 +62,13 @@ body{
     top: 650px;
     left: 820px;
 }
-    .doctor21{
-        position: absolute;
-        top: 440px;
-        right: 515px;
-    }
+.doctor21{
+    position: absolute;
+    top: 440px;
+    right: 515px;
+}
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width:1000px){
     body{
         background-color: red;
     }
@@ -73,13 +79,15 @@ body{
     }
     .doctor2{
         position: absolute;
-        top: 450px;
-        right: 25px;
+        top: 550px;
+        left: 25px;
     }
     .banner{
         position: absolute;
         top: 0px;
         left: 0px;
+        width: 1000px;
+        height: 250px;
     }
     .home{
         position: absolute;
@@ -89,7 +97,7 @@ body{
     .people{
         position: absolute;
         top: 0px;
-        left: 708px;
+        left: 475px;
     }
     .donate{
         position: absolute;
@@ -108,23 +116,22 @@ body{
     }
     .doctor2text{
         position: absolute;
-        top: 650px;
-        left: 1310px;
+        top: 735px;
+        left: 225px;
     }
     .donation{
         position: absolute;
         top: 270px;
-        left: 600px;
+        left: 370px;
     }
     .doctor21text{
         position: absolute;
         top: 650px;
-        left: 820px;
+        left: 320px;
     }
     .doctor21{
         position: absolute;
-        top: 440px;
-        right: 515px;
+        top: 640px;
+        left: 115px;
     }
-    
-    }
+}
