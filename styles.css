@@ -68,7 +68,7 @@ body{
     right: 515px;
 }
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:1200px){
     body{
         background-color: red;
     }
@@ -86,7 +86,7 @@ body{
         position: absolute;
         top: 0px;
         left: 0px;
-        width: 1000px;
+        width: 1200px;
         height: 250px;
     }
     .home{
@@ -96,13 +96,13 @@ body{
     }
     .people{
         position: absolute;
-        top: 0px;
-        left: 475px;
+        top: 30px;
+        left: 0px;
     }
     .donate{
         position: absolute;
-        top: 0px;
-        right: 0px;
+        top: 60px;
+        left: 0px;
     }
     .about{
         position: absolute;
@@ -156,20 +156,20 @@ body{
         width: 1000px;
         height: 250px;
     }
-    .home{
-        position: absolute;
-        top: 0px;
-        left: 0px;
-    }
     .people{
         position: absolute;
-        top: 0px;
-        left: 140px;
+        top: 30px;
+        left: 0px;
     }
     .donate{
         position: absolute;
-        top: 0px;
-        right: 0px;
+        top: 60px;
+        left: 0px;
+    }
+    .about{
+        position: absolute;
+        top: 300px;
+        left: 240px;
     }
     .about{
         position: absolute;
